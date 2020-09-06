@@ -110,7 +110,7 @@
   #if TEMP_SENSOR_1 == -1
     #define TEMP_1_PIN                         5  // Analog Input (connector *K2* on RUMBA thermocouple ADD ON is used)
   #elif TEMP_SENSOR_0 == 20 // E3D PT100
-    #define TEMP_0_PIN                         9  // ANALOG NUMBERING
+    #define TEMP_1_PIN                         9  // ANALOG NUMBERING
   #else
     #define TEMP_1_PIN                        14  // Analog Input (default connector for thermistor *T1* on rumba board is used)
   #endif
