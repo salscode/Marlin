@@ -758,7 +758,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 180, 1600, 417.5 } // default steps per unit for Titan BigBox
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 180, 1600, 418.5 } // default steps per unit for Titan BigBox
 
 /**
  * Default Max Feed Rate (mm/s)
